@@ -22,7 +22,7 @@ export const Form = () => {
     event.preventDefault();
     try {
       const res = await axios.post(
-        "https://formbackend-poiw.onrender.com/",
+        "https://formbackend-poiw.onrender.com/submit",
         user
       );
       console.log("successfull data sent from frontend.")
