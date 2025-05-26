@@ -1,0 +1,15 @@
+.btn-black{
+background-color: black;
+width: 50%;
+height: 44px;
+border-radius: 5px;
+color: white;
+margin-top: 30px;
+margin-right: 10px;
+margin-left: 10px;
+font-weight: 700;
+}
+.buttons{
+  display: flex;
+ 
+}

@@ -1,0 +1,23 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+padding-bottom: 0px;
+border-bottom: 1px solid black;
+margin-left: 10px;
+width: 90%;
+font-weight: 800;
+
+}
+.navbar img{
+  width: 5em;
+  height: 4em;
+
+}
+.list ul{
+ display: flex;
+ flex-direction: row;
+list-style: none;
+}
+.list ul li{
+  margin-left: 5em;
+}

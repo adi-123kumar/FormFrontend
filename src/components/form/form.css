@@ -1,0 +1,79 @@
+.mainbox{
+  display: flex;
+  margin-left: 12%;
+  justify-content: space-around;
+  gap:50px;
+}
+.right{
+ width: 50%;
+ height: 100%;
+
+  
+}
+.right img{
+  height: 400px;
+    width: 100%;
+    filter: drop-shadow(5px 5px 5px grey);
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px  black;
+
+}
+.left{
+  width: 50%;
+
+}
+.emailBtnDiv{
+  width: 100%;
+}
+.emailBtnDiv button{
+  width: 96%;
+
+}
+input{
+  width: 96%;
+  height: 40px;
+margin: 6px;
+background: transparent;
+border: 2px solid black;
+}
+textarea{
+  width: 96%;
+  height: 120px;
+  margin: 6px;
+  border: 2px solid black;
+  
+}
+label{
+position: relative;
+top:15px;
+left: 10px;
+padding: 2px;
+font-weight: 800;
+margin: 3px;
+background-color: white;
+padding-left: 5px;
+padding-right: 6px;
+}
+textarea:hover{
+border:3px solid black;
+}
+input:hover{
+  border: 3px solid black;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.submit,.submit button{
+  width: 80%;
+  margin-top: 0px;
+
+  
+}
+.submit button{
+  margin-left: 20%;
+    margin-right: 50%;
+}
