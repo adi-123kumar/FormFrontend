@@ -21,8 +21,13 @@ export const Form = () => {
   let onFormSubmit = async (event) => {
     event.preventDefault();
     try {
-      const res = await axios.post("http://localhost:8000/submit", user)
+      const res = await axios.post(
+        "https://formbackend-poiw.onrender.com/",
+        user
+      );
       console.log("successfull data sent from frontend.")
+      alert("data submited successfully..")
+      
     } catch (err) {
      console.log("error occurend in frontend")
     }
